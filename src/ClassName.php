@@ -5,6 +5,6 @@ namespace Mbirk\Pgist;
 class ClassName
 {
     function Hello(): string {
-        return "hello";
+        return "hello2";
     }
 }
