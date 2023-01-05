@@ -1,0 +1,10 @@
+{
+    "name": "mbirk/pgist",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mbirk\\Pgist\\": "src/"
+        }
+    },
+    "require": {}
+}
