@@ -1,1 +1,55 @@
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/auth.json
+/report/*
 /vendor/
+/var/
+/bin/*
+!/bin/console
+!/bin/CoverageCheckerCommand.php
+###< symfony/framework-bundle ###
+
+###> editor ###
+/.vscode
+/.idea
+###< editor ###
+
+###> squizlabs/php_codesniffer ###
+/.phpcs-cache
+/phpcs.xml
+###< squizlabs/php_codesniffer ###
+
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###
+/.ash_history
+/.composer/
+
+###> documentation ###
+/doc/c4/contents-system/.structurizr
+!/doc/c4/contents-system/.structurizr/eula.properties
+###< documentation ###
+# phpstan cache folder
+/r
+
+###> qossmic/deptrac-shim ###
+/.deptrac.cache
+###< qossmic/deptrac-shim ###
+/.scannerwork/
+
+###python cache###
+__pycache__/
+*.py[cod]
+
+###macos###
+.DS_Store
